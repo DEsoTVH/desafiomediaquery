@@ -7,9 +7,9 @@
     list-style: none;
 }
 
-
-
 .grid-container {
+    background-image: url(/assets/img/fondo.jpg); 
+    background-size: cover;
     display: grid;
     height: 100vh;
     grid-template-columns: auto auto;
@@ -22,7 +22,9 @@
     border: 1px solid black;
 }
 
+
 /* BARRA LOGO NOMBRE MENU */
+
 
 .item1 {
     grid-area: barra;
@@ -33,9 +35,24 @@
     border: 1px solid black;
 }
 
+.item1 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
 .logo{
     display: flex;
     align-items: center;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.logo p {
+    font-weight: bolder;
+    font-size: x-large;
 }
 
 .gloves-list{
@@ -48,7 +65,9 @@
     padding: .5rem 1rem;
 }
 
+
 /* FILTRO */
+
 
 .item2 {
     grid-area: filtro;
@@ -62,22 +81,29 @@
 
 .item2 p{
     margin-bottom: .5rem;
+    color: white;
+    font-weight: bold;
 }
 
 .filteroptions {
     width: 100%;
     padding: .8rem;
     border-radius: .5rem;
+    font-size: medium;
 }
 
+
 /* MAIN */
+
 
 .item3 {
     grid-area: main;
     border: 1px solid black;
 }
 
+
 /* FOOTER */
+
 
 .item4 {
     grid-area: footer;
@@ -87,6 +113,7 @@
     align-items: center;
     padding: 1rem;
     border: 1px solid black;
+    color: white;
 }
 
 .item4 .icon-footer {
