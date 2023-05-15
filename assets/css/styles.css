@@ -19,7 +19,7 @@
         "filtro filtro"
         "main main"
         "footer footer";
-    border: 1px solid black;
+        border-color: azure;
 }
 
 
@@ -32,7 +32,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 .item1 a {
@@ -76,7 +76,7 @@
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 .item2 p{
@@ -98,7 +98,7 @@
 
 .item3 {
     grid-area: main;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 
@@ -112,7 +112,7 @@
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    border: 1px solid black;
+    border: 1px solid white;
     color: white;
 }
 
