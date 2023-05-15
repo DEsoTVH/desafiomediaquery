@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+
+
+.item1 { grid-area: barra;
+border: 1px solid black }
+
+.item2 { grid-area: filtro;
+    border: 1px solid black }
+
+.item3 { grid-area: main; 
+    border: 1px solid black }
+
+.item4 { grid-area: footer; 
+    border: 1px solid black }
+
+
+.grid-container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 2fr 10fr; 
+    grid-template-areas:
+        'barra filtro filtro filtro filtro'
+        'barra main main main main'
+        'barra main main main main'
+        'barra main main main main'
+        'footer main main main main';
+    border: 1px solid black;
+}
+
+.item1 {
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.item4 {
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    flex-direction: column;
+}
+
+.item4 i {
+    margin-bottom: 20px;
+}
+
+.item2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchfilter {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.footercont {
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 2px;
+}
+
+.filteroptions {
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
