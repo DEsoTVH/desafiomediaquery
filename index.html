@@ -1,55 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
+    <link rel="stylesheet" href="assets\css\styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+      integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <script src="https://kit.fontawesome.com/e8c52db737.js" crossorigin="anonymous"></script>
-    <title>Boxing Gloves DEsoTVH</title>
-</head>
+    <title>Boxing Gloves</title>
+  </head>
 
-<body>
+  <body>
     <div class="grid-container">
-        <div class="item1">
-            <div class="logo">
-                <img src="assets/img/cletologo.jfif" alt="Logo">
-                <p>Boxing Gloves</p>
-            </div>
-            <div class="icon-menu">
-                <i class="fa-solid fa-bars fa-2xl"></i>
-            </div>
-            <ul class="gloves-list">
-                <li><a href="#">Grant</a></li>
-                <li><a href="#">Fly</a></li>
-                <li><a href="#">Everlast</a></li>
-                <li><a href="#">Rival</a></li>
-            </ul>
-        </div>
-        <div class="item2">
-            <p>Sort by:</p>
-            <select class="filteroptions">
-                <option>Price</option>
-                <option>Weight</option>
-                <option>Material</option>
-            </select>
-        </div>
-        <div class="item3">Main
-        </div>
-        <div class="item4">
-            <div class="icon-footer">
-                <i class="fa-brands fa-facebook fa-2xl"></i>
-                <i class="fa-brands fa-instagram fa-2xl"></i>
-            </div>
-            <p>
-                This site is owned by DEsoTVH
-            </p>
-            <p>
-                Rights reserved.
-            </p>
-        </div>
-    </div>
-</body>
+      <!--- NAV --->
 
+      <nav class="nav-bar">
+        <img class="logo" src="assets/img/cletologo.jfif" alt="" />
+        <ul class="listadesp">
+          <li>Cleto Reyes</li>
+          <li>Everlast</li>
+          <li>Fly</li>
+          <li>Grant</li>
+        </ul>
+      </nav>
+
+      <!--FILTER-->
+
+      <section class="filter">
+        <div class="orden">
+          <p class="opciones">Sort by:</p>
+          <select>
+            <option value="precio">Price</option>
+            <option value="precio">Weight</option>
+            <option value="precio">Brand</option>
+            <option value="precio">Model</option>
+            <option value="precio">Size</option>
+          </select>
+        </div>
+      </section>
+
+      <!--MAIN-->
+
+      <main>
+        <div class="main-container">
+          <div class="card">
+            <img
+              class="product-img"
+              src="assets/img/cleto1-removebg-preview.png"
+              alt=""
+            />
+            <p class="card-title">Model: Cleto Reyes Flagrant</p>
+            <p class="card-title">Price: $250USD</p>
+            <div class="btn">
+              <button class="mostrar">Show more</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="product-img"
+              src="assets/img/cleto2-removebg-preview.png"
+              alt=""
+            />
+            <p class="card-title">Model: Cleto Reyes Pink</p>
+            <p class="card-title">Price: $250USD</p>
+            <div class="btn">
+              <button class="mostrar">Show more</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="product-img"
+              src="assets/img/cleto3-removebg-preview.png"
+              alt=""
+            />
+            <p class="card-title">Model: Cleto Reyes Golden Touch</p>
+            <p class="card-title">Price: $250USD</p>
+            <div class="btn">
+              <button class="mostrar">Show more</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="product-img"
+              src="assets/img/cleto4-removebg-preview.png"
+              alt=""
+            />
+            <p class="card-title">Cleto Reyes Silver Chain</p>
+            <p class="card-title">Price: $250USD</p>
+            <div class="btn">
+              <button class="mostrar">Show more</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="product-img"
+              src="assets/img/fly1-removebg-preview.png"
+              alt=""
+            />
+            <p class="card-title">Model: Fly Captive</p>
+            <p class="card-title">Price: $350USD</p>
+            <div class="btn">
+              <button class="mostrar">Show more</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="product-img"
+              src="assets/img/fly2-removebg-preview.png"
+              alt=""
+            />
+            <p class="card-title">Model: Fly Old Legends</p>
+            <p class="card-title">Price: $380USD</p>
+            <div class="btn">
+              <button class="mostrar">Show more</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="product-img"
+              src="assets/img/fly3-removebg-preview.png"
+              alt=""
+            />
+            <p class="card-title">Model: Fly Old School Black</p>
+            <p class="card-title">Price: $450USD</p>
+            <div class="btn">
+              <button class="mostrar">Show more</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              class="product-img"
+              src="assets/img/fly4-removebg-preview.png"
+              alt=""
+            />
+            <p class="card-title">Model: Fly Aqua Mood</p>
+            <p class="card-title">Price: $280USD</p>
+            <div class="btn">
+              <button class="mostrar">Show more</button>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <div class="paginacion">
+        <button class="numeritos">«</button>
+        <button class="numeritos">1</button>
+        <button class="numeritos">2</button>
+        <button class="numeritos">3</button>
+        <button class="numeritos">»</button>
+      </div>
+
+      <!----------------- PIE DE PAGINA ----------------------->
+
+      <footer>
+        <div icon-footer>
+          <i class="iconf fab fa-facebook fa-m"></i>
+          <i class="iconf fab fa-instagram fa-m"></i>
+        </div>
+        <p class="footer-txt">Rights reserved to DEsoTVH.</p>
+      </footer>
+    </div>
+  </body>
 </html>
