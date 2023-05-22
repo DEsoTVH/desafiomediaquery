@@ -180,7 +180,7 @@ i {
 }
 
     li {
-        margin: 0 2em 1em 0;
+        margin-bottom: 2em;
 }
 
 .listadesp {
@@ -195,6 +195,36 @@ i {
 .listadesp li {
     margin-right: 2em;
 }
+
+
+
+
+
+
+.listadesp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    width: 100%; /* Añade esta línea */
+  }
+  
+  .listadesp li {
+    margin-right: 2em;
+    text-align: center; /* Añade esta línea */
+  }
+  
+  .listadesp li:last-child {
+    margin-right: 0;
+  }
+
+
+
+
+
+
+
 
     /* Filtro */
 
@@ -264,6 +294,10 @@ main {
 
 /* Footer */
 
+.iconf {
+    margin-right: 0.3em;
+}
+
 footer {
     grid-area: footer;
     background-color: #5D2E46;
@@ -274,12 +308,8 @@ footer {
     color: white;
 }
 
-.desktop {
+.listadesp {
     display: inline;
-}
-
-.iconf {
-    margin-right: 0.3em;
 }
 
 nav .toggler {
