@@ -26,12 +26,16 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .hamburga{
     padding: 10px;
     font-size: 40px;
-    color: black
+    color: white;
+    margin-right: 0;
+    font-weight: bolder ;
+
 }
 
 .logo {
@@ -58,7 +62,13 @@ section {
     font-weight: bold;
 }
 
+li {
+color: white;
+font-weight: 600;
+}
+
 select {
+    color: white;
     width: 15em;
     margin-bottom: 0.5em;
 }
@@ -178,8 +188,10 @@ i {
 }
 
     .logo {
-        height: 4em;
-        margin-top: 1em;
+        height: 8em;
+        margin-top: 0;
+        padding: 2em;
+
 }
 
     ul {
@@ -297,5 +309,6 @@ footer {
 .nav-bar {
     display: none;
 }
+
 }
 
