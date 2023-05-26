@@ -28,6 +28,12 @@ nav {
     align-items: center;
 }
 
+.hamburga{
+    padding: 10px;
+    font-size: 40px;
+    color: black
+}
+
 .logo {
     height: 5.5em;
     display: flex;
@@ -155,6 +161,12 @@ i {
     
 }
 
+    .hamburga{
+        padding: 10px;
+        font-size: 40px;
+        color: #5D2E46;
+}
+
 /* Barra */
     nav {
         grid-area: navbar;
@@ -231,7 +243,7 @@ main {
 
 .main-container {
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: 2fr 2fr 2fr 2fr;
     gap: 1em;
     margin-top: 1em;
     justify-content: center;
@@ -282,7 +294,7 @@ footer {
     display: inline;
 }
 
-nav .toggler {
+.nav-bar {
     display: none;
 }
 }
